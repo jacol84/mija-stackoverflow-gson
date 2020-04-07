@@ -16,7 +16,7 @@ public class GsonTest {
   @Test
   public void deserialize() throws IOException {
     //given
-    String path = "G:\\praca\\app\\stackoverflow\\mijaGson\\src\\test\\java\\pl\\jac\\mija\\gson\\simple\\json.json";
+    String path = ".\\src\\test\\java\\pl\\jac\\mija\\gson\\simple\\json.json";
     String json = Files.lines(Paths.get(path), StandardCharsets.UTF_8).findFirst().orElse("{}"); //--> =  "{\"var1\" : true, \"var2\" : false}";
 
     //when
