@@ -9,8 +9,9 @@ import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
+import kotlin.NotImplementedError;
 import org.junit.Test;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+//import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -103,7 +104,7 @@ class MyAdapterSkipNull extends TypeAdapter<LinkedTreeMap<String, Object>> {
 
   @Override
   public void write(JsonWriter out, LinkedTreeMap<String, Object> value) throws IOException {
-    throw new NotImplementedException();
+    throw new NotImplementedError();
   }
 
   @Override

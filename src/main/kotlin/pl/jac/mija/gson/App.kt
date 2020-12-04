@@ -8,6 +8,17 @@ class App {
         get() {
             return "Hello world."
         }
+
+    fun wiocha(): Boolean {
+        val x = if (true) "aa" else "bb";
+
+        if (true) {
+
+        } else if (false) {
+
+        }
+        return true;
+    }
 }
 
 fun main(args: Array<String>) {
