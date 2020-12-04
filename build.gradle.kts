@@ -37,3 +37,7 @@ application {
     // Define the main class for the application.
     mainClassName = "pl.jac.mija.gson.AppKt"
 }
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}

@@ -1,7 +1,6 @@
 package pl.jac.mija.gson.date;
 
 import org.junit.Test;
-import pl.jac.mija.gson.enu.PanelOrderAction;
 
 import java.util.Date;
 
@@ -28,7 +27,7 @@ public class TestDate {
     //when
     Date parse = date.parse(stringDate);
     //then
-    assertEquals(parse.getTime(), 1607091151000L);
+    assertEquals(parse.getTime(), 1604326548983L);
   }
 
   @Test
@@ -39,7 +38,7 @@ public class TestDate {
     //when
     Date parse = date.parse(stringDate);
     //then
-    assertEquals(parse.getTime(), 1607091151000L);
+    assertEquals(parse.getTime(), 1607087551213L);
   }
 
   @Test
@@ -50,7 +49,7 @@ public class TestDate {
     //when
     Date parse = date.parse(stringDate);
     //then
-    assertEquals(parse.getTime(), 1607091151000L);
+    assertEquals(parse.getTime(), 1607036400000L);
   }
 
 }
